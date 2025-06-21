@@ -213,7 +213,6 @@ def forMinute(minute_number, output_arrays, count_arrays, average_output_count):
 
 video_detector = VideoObjectDetection()
 video_detector.setModelTypeAsYOLOv3()
-video_detector.setModelPath(os.path.join(execution_path, "yolo.h5"))
 video_detector.loadModel()
 
 video_detector.detectObjectsFromVideo(

@@ -3,7 +3,7 @@ import os
 
 detector = ObjectDetection()
 detector.setModelTypeAsYOLOv3()
-detector.setModelPath("yolo.h5")
+# detector.setModelPath("yolo.h5")
 detector.loadModel()
 
 detections = detector.detectObjectsFromImage(
